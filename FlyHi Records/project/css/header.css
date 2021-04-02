@@ -1,0 +1,200 @@
+
+header {z-index: 10000;}
+#work-cta {z-index: 10000;}
+
+body {max-width: 100%; overflow-x: hidden; background-color: #1c1c1c;}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 3%;
+
+  transition-duration: 600ms;
+}
+
+
+
+/* logo stylesheet --- start --- */
+
+@media only screen and (max-width: 580px) {
+#logo-wrapper img {
+  padding-top: 22px;
+  padding-bottom: 15px;
+  padding-left: 3%;
+  width: 130px;
+}
+}
+
+
+@media only screen and (min-width: 580px) and (max-width: 750px){
+#logo-wrapper img {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 1.5%;
+  width: 160px;
+}
+}
+
+@media only screen and (min-width: 750px) {
+#logo-wrapper img {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 0%;
+  width: 170px;
+}
+}
+/* logo stylesheet --- end --- */
+
+
+
+
+
+
+/* nav stylesheet --- start --- */
+
+@media only screen and (max-width: 580px) {
+#nav {
+  position: fixed;
+  top: 40px;
+  right: 60px;
+  color: white;
+  font-size: 15px;
+
+  cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 580px) and (max-width: 750px){
+#nav {
+  position: fixed;
+  top: 65px;
+  right: 80px;
+  color: white;
+
+  cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 750px) {
+#nav {
+  position: fixed;
+  top: 70px;
+  right: 130px;
+  color: white;
+  font-size: 17px;
+
+  cursor: pointer;
+}
+}
+
+/* nav stylesheet --- end  --- */
+
+
+
+
+
+
+/* work cta stylesheet --- start ---*/
+
+.work-cta-hover-click {
+  position: fixed;
+  bottom: 40px;
+  left: 55px;
+  margin-bottom: 70px;
+}
+
+#work-cta {
+  position: fixed;
+  bottom: 45px;
+  left: 60px;
+  color: white;
+  mix-blend-mode: difference;
+
+  cursor: pointer;
+}
+
+.dot {
+
+}
+
+.work.text {
+  position: fixed;
+  bottom: 15px;
+  left: 55px;
+  font-size: 17px;
+  color: #bbb;
+  mix-blend-mode: difference;
+  opacity: 0.6;
+  margin-bottom: 70px;
+
+  display: none;
+}
+
+.dot {
+  height:6.5px;
+  width:6.5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition-duration: 300ms;
+  margin-bottom: 70px;
+}
+
+.work.dot-one {
+  position: fixed;
+  bottom: 45px;
+  left: 60px;
+}
+
+.work.dot-two {
+  position: fixed;
+  bottom: 45px;
+  left: 75px;
+}
+
+.work.dot-three {
+  position: fixed;
+  bottom: 60px;
+  left: 60px;
+}
+
+.work.dot-four {
+  position: fixed;
+  bottom: 60px;
+  left: 75px;
+}
+
+
+.wcta-wrapper {
+  transition-duration: 700ms;
+  z-index: 9999;
+}
+/* work cta stylesheet --- end ---*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.temp.scroll-enable {
+  position: absolute;
+  margin-top: 3000px;
+  pointer-events: none;
+}

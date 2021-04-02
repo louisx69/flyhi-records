@@ -1,0 +1,77 @@
+
+
+
+page {z-index: 10000;}
+preloader {z-index: 10010; pointer-events: none;}
+
+page {display: none;}
+
+
+
+
+
+
+/* preloader positioning --- start --- */
+
+preloader .upper-2 {
+  z-index: 10001;
+  position: fixed;
+  height: 50vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #E0DAD2;
+  overflow: hidden;
+
+
+  transition-duration:1.3s;
+}
+
+preloader .downer {
+  z-index: 10001;
+  position: fixed;
+  height: 50vh;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #52514F;
+  overflow: hidden;
+
+
+  transition-duration: 1.3s;
+}
+
+
+preloader .downer-img , preloader .upper-img  {
+  position: relative;
+  top: 25%;
+}
+/* preloader positioning --- end --- */
+
+
+
+
+
+/* preloader img animation --- start --- */
+
+
+preloader .downer-img {
+  animation: 10s drive-right;
+}
+
+preloader .upper-img {
+  animation: 10s drive-left;
+}
+
+
+@keyframes drive-right {
+  from{ transform: translateX(-2000px);}
+}
+
+@keyframes drive-left {
+  from{ transform: translateX(-300px);}
+  to{ transform: translateX(-2000px);}
+}
+
+
+/* preloader img animation --- end --- */

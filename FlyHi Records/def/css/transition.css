@@ -1,0 +1,68 @@
+
+page {display: none;}
+
+
+/* Preload trasition --- start --- */
+
+transition-preload .layer-1 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: all;
+  background-color: var(---dark);
+  z-index: 10021;
+  transition-duration: 1.3s;
+  transition-timing-function: ease-out;
+}
+
+transition-preload .layer-2 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: all;
+  background-color: var(---light);
+  z-index: 10020;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in;
+}
+/* Preload trasition --- end --- */
+
+
+
+/* afterlick trasition --- start --- */
+
+transition-afterclick .layer-1 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 100vw;
+  pointer-events: all;
+  background-color: var(---dark);
+  z-index: 10021;
+  transition-duration: 0.9s;
+  transition-timing-function: ease-out;
+}
+/* afterlick trasition --- end --- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.t{}
